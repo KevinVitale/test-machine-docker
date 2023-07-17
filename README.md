@@ -40,7 +40,7 @@ Commands:
   help [command]                 display help for command
 ```
 
-All options are available by their respective commands:
+All commands are available by simply appending the actions to the script invocation:
 
 ```
 $ ./cli.sh repo list
