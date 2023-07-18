@@ -2,7 +2,7 @@
 
 Login with (or create) a **TestMachine** account [on the website](https://testmachine.ai/signup).
 
-Copy [the API shown](https://testmachine.ai/docs#get-api-key); set your API key in the `.env` file:
+Copy [the API key shown](https://testmachine.ai/docs#get-api-key); set your API key in the `.env` file:
 
 ```
 TM_TOKEN_KEY=
@@ -53,3 +53,6 @@ Repositories:
 └─────────┴─────┴───────────┴────────────────────────────┴─────────────┴────────────┘
 ```
 
+## Appendix: syncing files to the container
+
+A local volume, a `data` folder in the current working directory, is mounted within the container to `/data`.
